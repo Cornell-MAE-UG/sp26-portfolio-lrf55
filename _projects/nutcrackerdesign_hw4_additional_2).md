@@ -3,7 +3,7 @@ layout: project
 title: Macadamia Nutcracker Design
 description: ENGRD 2020 Homework 4 Design Problem
 technologies: [Statics, Mechanical Design]
-image: nutcracker-diagram.png
+image: nutcracker-diagram.jpg
 ---
 
 ## 1. Problem Statement and Objective
@@ -22,7 +22,9 @@ To achieve this, the handle length ($L_H$) must be 5.45 times the distance from 
 $$L_H = 5.45 \times 5\text{ cm} = 27.25\text{ cm}$$
 
 ## 4. Design Diagram
-![Nutcracker Diagram](nutcracker-diagram.png)
+![Nutcracker Diagram](nutcracker-diagram.jpg)
 
 ## 5. Usability Discussion
-While a 27.25 cm tool is standard for heavy-duty kitchenware, it is bulky for a single-handed nutcracker. Furthermore, 400 N of force is at the human limit, making this design difficult for children or the elderly.
+While a 27.25 cm (approx. 10.7 in) tool is standard for heavy-duty kitchenware, it is quite large for a typical single-handed nutcracker. Furthermore, requiring 400 N of force is at the absolute limit for most people, making it unusable for children, the elderly, or individuals with grip weaknesses. To improve usability, a Heavy Duty Linear Actuator was selected. This actuator can output up to 2000 lbs—four times the required force—at a stroke of only 2 inches. This makes the tool both physically powerful enough for any user and compact enough for kitchen storage.
+
+
