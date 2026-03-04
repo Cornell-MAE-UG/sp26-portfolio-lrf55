@@ -7,7 +7,7 @@ image: nutcracker.jpg
 ---
 
 ## 1. Problem Statement and Objective
-Find a feasible design for a manual lever nutcracker capable of cracking a macadamia nut.
+Find a feasible design for a manual lever nutcracker capable of cracking a macadamia nut. This involves determining the necessary dimensions and overall design to make the task possible for an average adult. 
 
 ## 2. Constraints and Input Parameters
 * **Required Force:** 2180 N (490 lbs)
