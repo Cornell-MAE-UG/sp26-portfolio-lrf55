@@ -1,38 +1,28 @@
 ---
 layout: project
 title: Macadamia Nutcracker Design
-description: HW4 Additional 2
-technologies: [Statics, Mechanics of Solids]
+description: ENGRD 2020 Homework 4 Design Problem
+technologies: [Statics, Mechanical Design]
 image: nutcracker-diagram.png
 ---
 
-Find: The objective is to design a feasible manual lever nutcracker capable of cracking a macadamia nut. 
-This involves determining the necessary dimensions and overall design to make the task possible for an average adult. 
-Additionally, the project explores modifying the design to replace manual grip strength with a linear actuator.
+## 1. Problem Statement and Objective
+Find a feasible design for a manual lever nutcracker capable of cracking a macadamia nut.
 
-Given: 
-  - Cracking Force Required: Macadamia nuts require an average load of approximately 2180 N (490 lbs) to crack.
-  - Nut Size: Typically ranges from 20 mm to 30 mm in diameter
-  - Input Force (Manual): The average maximum grip strength for a healthy adult is assumed to be 400 N (90 lbs).
-  - Actuator Requirement: Must reliably exceed the 2180 N (490 lbs) requirement
+## 2. Constraints and Input Parameters
+* **Required Force:** 2180 N (490 lbs)
+* **Avg. Grip Strength:** 400 N (90 lbs)
+* **Nut Size:** 20 mm - 30 mm
 
-Approach and Calculations: My design utilizes a Class 2 Lever, where the nut is placed between the pivot and the handle 
-to maximize mechanical advantage (MA).
-  Mechanical Advantage Calculation: MA = Force Out/Force In = 2180N/400N = 5.45
-  Dimensional Design:
-    To achieve this MA, the handle length (Lh) must be at least 5.45 times the distance from the pivot to the nut (dp)
-    Assuming a nut diameter of ~25 mm, a distance dp = 55mm (5cm) was chosen to safely accommodate the nut.
-    Total Handle Length: 5.45(50mm) = 272.5mm (27.25cm)
+## 3. Approach and Calculations
+Using a Class 2 lever, the mechanical advantage (MA) required is:
+$$MA = \frac{2180\text{ N}}{400\text{ N}} = 5.45$$
 
-Design Diagram (not drawn to scale): 
-<p align="center">
-  <img src="nutcracker-diagram.png" width="500" alt="Nutcracker Design Diagram">
-  <br>
-  <em>Figure 1: Class 2 Lever Design for Macadamia Nutcracker</em>
-</p>
+To achieve this, the handle length ($L_H$) must be 5.45 times the distance from the pivot to the nut ($d_p$). Assuming $d_p = 5\text{ cm}$:
+$$L_H = 5.45 \times 5\text{ cm} = 27.25\text{ cm}$$
 
-Usability: While a 27.25 cm (approx. 10.7 in) tool is standard for heavy-duty kitchenware, it is quite large for a typical 
-single-handed nutcracker. Furthermore, requiring 400 N of force is at the absolute limit for most people, making it unusable 
-for children, the elderly, or individuals with grip weaknesses. To improve usability, a Heavy Duty Linear Actuator was selected. 
-This actuator can output up to 2000 lbs—four times the required force—at a stroke of only 2 inches. This makes the tool both 
-physically powerful enough for any user and compact enough for kitchen storage.
+## 4. Design Diagram
+![Nutcracker Diagram](nutcracker-diagram.png)
+
+## 5. Usability Discussion
+While a 27.25 cm tool is standard for heavy-duty kitchenware, it is bulky for a single-handed nutcracker. Furthermore, 400 N of force is at the human limit, making this design difficult for children or the elderly.
