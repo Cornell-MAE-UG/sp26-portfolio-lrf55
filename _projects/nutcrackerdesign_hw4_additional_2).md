@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Macadamia Nutcracker Design
-description: ENGRD 2020 Homework 4 Design Problem
+description: ENGRD 2020 Homework 4 Additional 2
 technologies: [Statics, Mechanical Design]
 image: nutcracker.jpg
 ---
