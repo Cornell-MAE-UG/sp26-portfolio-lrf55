@@ -1,0 +1,25 @@
+---
+layout: project
+title: Macadamia Nutcracker Design
+description: HW4 Additional 2
+technologies: None
+image: None
+---
+
+Find: The objective is to design a feasible manual lever nutcracker capable of cracking a macadamia nut. 
+This involves determining the necessary dimensions and overall design to make the task possible for an average adult. 
+Additionally, the project explores modifying the design to replace manual grip strength with a linear actuator.
+
+Given: 
+  - Cracking Force Required: Macadamia nuts require an average load of approximately 2180 N (490 lbs) to crack.
+  - Nut Size: Typically ranges from 20 mm to 30 mm in diameter
+  - Input Force (Manual): The average maximum grip strength for a healthy adult is assumed to be 400 N (90 lbs).
+  - Actuator Requirement: Must reliably exceed the 2180 N (490 lbs) requirement
+
+Approach and Calculations: My design utilizes a Class 2 Lever, where the nut is placed between the pivot and the handle 
+to maximize mechanical advantage (MA).
+  Mechanical Advantage Calculation: MA = Force Out/Force In = 2180N/400N = 5.45
+  Dimensional Design:
+    To achieve this MA, the handle length (Lh) must be at least 5.45 times the distance from the pivot to the nut (dp)
+    Assuming a nut diameter of ~25 mm, a distance dp = 55mm (5cm) was chosen to safely accommodate the nut.
+    Total Handle Length: 5.45(50mm) = 272.5mm (27.25cm)
