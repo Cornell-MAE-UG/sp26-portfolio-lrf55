@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Macadamia Nutcracker Design
+permalink: /projects/nutcrackerdesign/
 description: ENGRD 2020 Homework 4 Additional 2
 technologies: [Statics, Mechanical Design]
 image: nutcracker.jpg
