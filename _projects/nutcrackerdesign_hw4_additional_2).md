@@ -25,6 +25,6 @@ $$L_H = 5.45 \times 5\text{ cm} = 27.25\text{ cm}$$
 ![Nutcracker Diagram](nutcracker.jpg)
 
 ## 5. Usability Discussion
-While a 27.25 cm (approx. 10.7 in) tool is standard for heavy-duty kitchenware, it is quite large for a typical single-handed nutcracker. Furthermore, requiring 400 N of force is at the absolute limit for most people, making it unusable for children, the elderly, or individuals with grip weaknesses. To improve usability, a Heavy Duty Linear Actuator was selected. This actuator can output up to 2000 lbs—four times the required force—at a stroke of only 2 inches. This makes the tool both physically powerful enough for any user and compact enough for kitchen storage.
+While a 27.25 cm (approx. 10.7 in) tool is standard for heavy-duty kitchenware, it is quite large for a typical single-handed nutcracker. Furthermore, requiring 400 N of force is at the absolute limit for most people, making it unusable for children, the elderly, or individuals with grip weaknesses. To improve usability, a Heavy Duty Linear Actuator was selected. This actuator can output up to 2000 lbs--four times the required force--at a stroke of only 2 inches. This makes the tool both physically powerful enough for any user and compact enough for kitchen storage.
 
 
